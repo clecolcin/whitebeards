@@ -7,7 +7,7 @@ import { DataRepositoryService } from "../services/data-repository";
   styleUrls: [`../styles/nav-bar.css`],
   template: `
     <div class="nav-bar">
-      <img class="logo" src="/assets/images/whitebeard-logo.png" alt="Whitebeard Logo" />
+      <img class="logo" src="./assets/images/whitebeard-logo.png" alt="Whitebeard Logo" />
       <div class="nav-item"><a [routerLink]="['/catalog']">Catalog</a></div>
       <account-menu [user]="currentUser" (signedOut)="handleSignOut()"></account-menu>
     </div>
