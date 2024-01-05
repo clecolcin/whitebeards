@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { Firestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-root',
@@ -20,4 +21,10 @@ import { Component } from '@angular/core';
       </div>
     `,
 })
-export class AppComponent { }
+export class AppComponent {
+/*
+  firestore: Firestore = inject(Firestore);
+
+  constructor() {}
+*/
+ }

@@ -12,6 +12,16 @@ import { LoadingComponent } from "./components/loading-spinner";
 import { DataRepositoryService } from "./services/data-repository"
 import { AccountMenuComponent } from "./components/account-menu";
 
+/*
+const config = {
+  apiKey: "AIzaSyD6E9OYBX72KCRcnwPAzDjVy8MmDbbEgfw",
+  authDomain: "stackblitzfire.firebaseapp.com",
+  databaseURL: "https://stackblitzfire.firebaseio.com",
+  storageBucket: "stackblitzfire.appspot.com",
+  messagingSenderId: "42917465053"
+};
+*/
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +37,7 @@ import { AccountMenuComponent } from "./components/account-menu";
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule
+    //AngularFireModule.initializeApp(config),
   ],
   providers: [DataRepositoryService],
   bootstrap: [AppComponent]
